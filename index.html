@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecobazar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--header-->
+    <header>
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+        <div class="location">
+            <span><i class="fa-solid fa-location-dot"></i></span>
+            <p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
+        </div>
+        <div class="navigation">
+            <ul class="d-flex align-items-center">
+                <li>
+                    <a href="#">Eng <span><i class="fa-solid fa-chevron-down"></i></span> 
+                    </a>
+                </li>
+                <li><a href="#">USD <span><i class="fa-solid fa-chevron-down"></i></span></a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#">Sign In/Sign Up</a></li>
+            </ul>
+        </div>
+
+        </div>
+    </div>
+
+
+    </header>
+    <!--header end-->
+
+<!--navbar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/Logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex search_field ms-auto btn-group"  role="search">
+              <input
+                class="form-control pe-5 ps-2 py-2"
+                type="search"placeholder="Search"aria-label="Search"/>
+              <button class="btn btn-success" type="submit">
+                Search
+              </button>
+            </form>
+            <div class="navbar-nav values ms-lg-auto mb-2 mb-lg-0">
+              <div>
+                <i class="fa-regular fa-heart heart"></i>
+              </div>
+              <div class="d-flex align-items-center">
+                <span class="Shopping_cart">
+                    <i class="fa-solid fa-bag-shopping card_shop"></i>
+                  <span class="number">2</span>
+                </span>
+                <span class="shopping d-flex flex-column ps-2">
+                  <span class="cart">Shopping cart:</span>
+                  <span>$57.00</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section id="navigation_menu">
+        <div class="container">
+          <div class="d-flex align-items-center justify-content-between">
+            <ul>
+              <li>
+                <a href="#"
+                  >Home <span><i class="fa-solid fa-chevron-down"></i></span
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  >Shop <span><i class="fa-solid fa-chevron-down"></i></span
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  >Pages <span><i class="fa-solid fa-chevron-down"></i></span
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  >Blog <span><i class="fa-solid fa-chevron-down"></i></span
+                ></a>
+              </li>
+              <li>
+                <a href="#">About Us <span></span></a>
+              </li>
+              <li>
+                <a href="#">Contact Us <span></span></a>
+              </li>
+            </ul>
+            <div class="call">
+              <span><i class="fa-solid fa-phone"></i></span>
+              <span> (219) 555-0114</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="offcanvas offcanvas-end"tabindex="-1"id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <button type="button"class="btn-close text-reset"data-bs-dismiss="offcanvas"aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+              <ul>
+                <li class="mb-2">
+                  <a class="text-decoration-none text-body-emphasis" href="#"
+                    >Home <span><i class="fa-solid fa-chevron-down"></i></span
+                  ></a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-decoration-none text-body-emphasis" href="#"
+                    >Shop <span><i class="fa-solid fa-chevron-down"></i></span
+                  ></a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-decoration-none text-body-emphasis" href="#"
+                    >Pages <span><i class="fa-solid fa-chevron-down"></i></span
+                  ></a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-decoration-none text-body-emphasis" href="#"
+                    >Blog <span><i class="fa-solid fa-chevron-down"></i></span
+                  ></a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-decoration-none text-body-emphasis" href="#"
+                    >About Us <span></span
+                  ></a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-decoration-none text-body-emphasis" href="#"
+                    >Contact Us <span></span
+                  ></a>
+                </li>
+              </ul>
+              <div class="call">
+                <span><i class="fa-solid fa-phone"></i></span>
+                <span> (219) 555-0114</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- navbar end -->
+
+
+
+
+
+
+
+      <section id="banner ">
+        <div class="container mt-3">
+          <div class="row">
+            <div class="col-lg-8 ">
+                <a href="#"><img class="img-fluid" src="./assets/images/Bannar Big.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4">
+              <div class="col-lg-12 ">
+                <a href="" style="margin-bottom: 24px; display: inline-block;"><img class="img-fluid" src="./assets/images/Bannar.png" alt="">
+                </a>
+              </div>
+              <div class="col-lg-12">
+                <a href=""><img class="img-fluid" src="./assets/images/Bannar (1).png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+        <!-- popular Categories -->
+         <section id="Categories">
+          <div class="container">
+            <div class="popular">
+              <h2>Popular Categories</h2>
+              <button>View All
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
+              </button>
+            </div>
+              <div class="row mt-5 gap-3">
+                <div class="col-lg-2 Categories-box">
+                  <img src="assets/images/image 1.png" alt="">
+                  <h4>Fresh Fruit</h4>
+                </div>
+                <div class="col-lg-2 Categories-box">
+                  <img src="assets/images/image 1 (1).png" alt="">
+                  <h4>Fresh Vegtable</h4>
+                </div>
+                <div class="col-lg-2 Categories-box">
+                  <img src="assets/images/image 1 (2).png" alt="">
+                  <h4>Meat & Fish</h4>
+                </div>
+                <div class="col-lg-2 Categories-box">
+                  <img src="assets/images/image 1 (3).png" alt="">
+                  <h4>Snacks</h4>
+                </div>
+                <div class="col-lg-2 Categories-box">
+                  <img src="assets/images/image 1 (4).png" alt="">
+                  <h4>Beverages</h4>
+                </div>
+                <div class="col-lg-2 Categories-box">
+                  <img src="assets/images/image 1 (5).png" alt="">
+                  <h4>Beauty & Health</h4>
+                </div>
+                <div class="col-lg-2 Categories-box">
+                  <img src="assets/images/image 1 (6).png" alt="">
+                  <h4>Bread & Bakery</h4>
+                </div>
+                <div class="col-lg-2 Categories-box">
+                  <img src="assets/images/image 1 (7).png" alt="">
+                  <h4>Baking Needs</h4>
+                </div>
+                <div class="col-lg-2 Categories-box">
+                  <img src="assets/images/image 1 (8).png" alt="">
+                  <h4>Cooking</h4>
+                </div>
+                <div class="col-lg-2 Categories-box">
+                  <img src="assets/images/image 1 (9).png" alt="">
+                  <h4>Diabetic Food</h4>
+                </div>
+                <div class="col-lg-2 Categories-box">
+                  <img src="assets/images/image 1 (10).png" alt="">
+                  <h4>Dish Detergents</h4>
+                </div>
+                <div class="col-lg-2 Categories-box">
+                  <img src="assets/images/image 1 (5).png" alt="">
+                  <h4>Oil</h4>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+         </section>
+
+
+        <!-- popular Categories end -->
+
+       <!--Popular Products-->
+       <section id="products">
+        <div class="container">
+          <div class="product">
+            <h1>Popular Products</h1>
+            <button>
+              View All
+              <span><i class="fa-solid fa-arrow-right-long"></i></span>
+            </button>
+          </div>
+          <div class="row mt-5 row-cols-lg-5 row-cols-md-3 row-cols-2">
+            <div class="products_box">
+              <div class="products_image">
+                <img src="assets/images/Product Image.png" alt="" />
+              </div>
+              <div class="products_box_content">
+                <div>
+                  <h4>Green Apple</h4>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                      <span class="rate">$14.99</span>
+                      <span class="cross">$20.99</span>
+                    </div>
+                    <div class="products_cart">
+                      <i class="fa-solid fa-lock"></i>
+                    </div>
+                  </div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+              </div>
+              <div class="sale">
+                <p>Sale 50%</p>
+              </div>
+            </div>
+            <div class="products_box">
+              <div class="products_image">
+                <img src="assets/images/Product Image (1).png" alt="" />
+              </div>
+              <div class="products_box_content">
+                <div>
+                  <h4>Green Apple</h4>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                      <span class="rate">$14.99</span>
+                      <span class="cross">$20.99</span>
+                    </div>
+                    <div class="products_cart">
+                      <i class="fa-solid fa-lock"></i>
+                    </div>
+                  </div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+              </div>
+            </div>
+            <div class="products_box">
+              <div class="products_image">
+                <img src="assets/images/Product Image (2).png" alt="" />
+              </div>
+              <div class="products_box_content">
+                <div>
+                  <h4>Green Apple</h4>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                      <span class="rate">$14.99</span>
+                      <span class="cross">$20.99</span>
+                    </div>
+                    <div class="products_cart">
+                      <i class="fa-solid fa-lock"></i>
+                    </div>
+                  </div>
+                  <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+              </div>
+            </div>
+            <div class="products_box">
+              <div class="products_image">
+                <img src="assets/images/Product Image (3).png" alt="" />
+              </div>
+              <div class="products_box_content">
+                <div>
+                  <h4>Green Apple</h4>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                      <span class="rate">$14.99</span>
+                      <span class="cross">$20.99</span>
+                    </div>
+                    <div class="products_cart">
+                      <i class="fa-solid fa-lock"></i>
+                    </div>
+                  </div>
+                  <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+              </div>
+            </div>
+            <div class="products_box">
+              <div class="products_image">
+                <img src="assets/images/Product Image (5).png" alt="" />
+              </div>
+              <div class="products_box_content">
+                <div>
+                  <h4>Green Apple</h4>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                      <span class="rate">$14.99</span>
+                      <span class="cross">$20.99</span>
+                    </div>
+                    <div class="products_cart">
+                      <i class="fa-solid fa-lock"></i>
+                    </div>
+                  </div>
+                  <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+              </div>
+            </div>
+            <div class="products_box">
+              <div class="products_image">
+                <img src="assets/images/Product Image (6).png" alt="" />
+              </div>
+              <div class="products_box_content">
+                <div>
+                  <h4>Green Apple</h4>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                      <span class="rate">$14.99</span>
+                      <span class="cross">$20.99</span>
+                    </div>
+                    <div class="products_cart">
+                      <i class="fa-solid fa-lock"></i>
+                    </div>
+                  </div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+              </div>
+            </div>
+            <div class="products_box">
+              <div class="products_image">
+                <img src="assets/images/Product Image (7).png" alt="" />
+              </div>
+              <div class="products_box_content">
+                <div>
+                  <h4>Green Apple</h4>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                      <span class="rate">$14.99</span>
+                      <span class="cross">$20.99</span>
+                    </div>
+                    <div class="products_cart">
+                      <i class="fa-solid fa-lock"></i>
+                    </div>
+                  </div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+              </div>
+            </div>
+            <div class="products_box">
+              <div class="products_image">
+                <img src="assets/images/Product Image (8).png" alt="" />
+              </div>
+              <div class="products_box_content">
+                <div>
+                  <h4>Green Apple</h4>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                      <span class="rate">$14.99</span>
+                      <span class="cross">$20.99</span>
+                    </div>
+                    <div class="products_cart">
+                     <i class="fa-solid fa-lock"></i>
+                    </div>
+                  </div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+              </div>
+            </div>
+            <div class="products_box">
+              <div class="products_image">
+                <img src="assets/images/Product Image (9).png" alt="" />
+              </div>
+              <div class="products_box_content">
+                <div>
+                  <h4>Green Apple</h4>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                      <span class="rate">$14.99</span>
+                      <span class="cross">$20.99</span>
+                    </div>
+                    <div class="products_cart">
+                      <i class="fa-solid fa-lock"></i>
+                    </div>
+                  </div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+              </div>
+              <div class="sale">
+                <p>Sale 50%</p>
+              </div>
+            </div>
+            <div class="products_box">
+              <div class="products_image">
+                <img src="assets/images/Product Image (10).png" alt="" />
+              </div>
+              <div class="products_box_content">
+                <div>
+                  <h4>Green Apple</h4>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                      <span class="rate">$14.99</span>
+                      <span class="cross">$20.99</span>
+                    </div>
+                    <div class="products_cart">
+                      <i class="fa-solid fa-lock"></i>
+                    </div>
+                  </div>
+                  <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!--Popular Products end-->
+
+
+    <section id="month">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 ">
+            <a href="#"> <img class="img-fluid"src="assets/images/Bannar (2).png" alt=""></a>
+          </div>
+          <div class="col-lg-4">
+            <a href="#"><img class="img-fluid" src="assets/images/Bannar (5).png" alt=""></a>
+          </div>
+          <div class="col-lg-4">
+            <a href="#"><img class="img-fluid" src="assets/images/Bannar (3).png" alt=""></a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section id="summer_sale">
+      <div class="container">
+        <div class="col-lg-12 mt-4 mb-4">
+          <img src="assets/images/Discount Bannar.png" alt="">
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section id="products">
+      <div class="container">
+        <div class="product">
+          <h1>Featured Products</h1>
+          <button>
+            View All
+            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+          </button>
+        </div>
+        <div class="row mt-5 row-cols-lg-5 row-cols-md-3 row-cols-2">
+          <div class="products_box">
+            <div class="products_image">
+              <img src="assets/images/Product Image (12).png" alt="" />
+            </div>
+            <div class="products_box_content">
+              <div>
+                <h4>Green Apple</h4>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div>
+                    <span class="rate">$14.99</span>
+                    <span class="cross">$20.99</span>
+                  </div>
+                  <div class="products_cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+            <div class="sale">
+              <p>Sale 50%</p>
+            </div>
+          </div>
+          <div class="products_box">
+            <div class="products_image">
+              <img src="assets/images/Image (4).png" alt="" />
+            </div>
+            <div class="products_box_content">
+              <div>
+                <h4>Green Apple</h4>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div>
+                    <span class="rate">$14.99</span>
+                    <span class="cross">$20.99</span>
+                  </div>
+                  <div class="products_cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+          <div class="products_box">
+            <div class="products_image">
+              <img src="assets/images/Image (2).png" alt="" />
+            </div>
+            <div class="products_box_content">
+              <div>
+                <h4>Green Apple</h4>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div>
+                    <span class="rate">$14.99</span>
+                    <span class="cross">$20.99</span>
+                  </div>
+                  <div class="products_cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+          <div class="products_box">
+            <div class="products_image">
+              <img src="assets/images/Image (3).png" alt="" />
+            </div>
+            <div class="products_box_content">
+              <div>
+                <h4>Green Apple</h4>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div>
+                    <span class="rate">$14.99</span>
+                    <span class="cross">$20.99</span>
+                  </div>
+                  <div class="products_cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+          <div class="products_box">
+            <div class="products_image">
+              <img src="assets/images/Image (4).png" alt="" />
+            </div>
+            <div class="products_box_content">
+              <div>
+                <h4>Green Apple</h4>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div>
+                    <span class="rate">$14.99</span>
+                    <span class="cross">$20.99</span>
+                  </div>
+                  <div class="products_cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
